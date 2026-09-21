@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Yusra's Profile</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #f8d7e8, #d9e7ff);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .profile-card {
+            width: 380px;
+            background: white;
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .profile-picture {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #e88bb5;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        .title {
+            color: #d45b91;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .about {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .skills {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 25px;
+        }
+
+        .skill {
+            background-color: #f5c1d9;
+            color: #7d2850;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background-color: #d45b91;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .contact-btn:hover {
+            background-color: #b83f73;
+            transform: scale(1.05);
+        }
+
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #d45b91;
+            text-decoration: none;
+            margin: 0 8px;
+            font-weight: bold;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile-card">
+
+        <!-- Profile Picture -->
+        <img src="ticker.jpg" alt="Yusra's Profile Picture" class="profile-picture">
+
+        <!-- Name -->
+        <h1>Yusra</h1>
+
+        <!-- Title -->
+        <p class="title">Student & Creative Learner</p>
+
+        <!-- About -->
+        <p class="about">
+            Hello! My name is Yusra. I am a passionate and creative person
+            who enjoys learning new things, and
+            developing new skills.
+        </p>
+
+        <!-- Skills -->
+        <h2>My Skills</h2>
+
+        <div class="skills">
+            <span class="skill">Creativity</span>
+            <span class="skill">Communication</span>
+            <span class="skill">Problem Solving</span>
+        </div>
+
+        <!-- Contact Button -->
+        <a href="mailto:yusra@example.com" class="contact-btn">
+            Contact Yusra
+        </a>
+
+        <!-- Social Links -->
+        <div class="social-links">
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

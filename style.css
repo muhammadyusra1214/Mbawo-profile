@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: powderblue;
+}
+
+nav,footer{
+    background-color: #0f4b8f;
+    padding: 10px;
+    h1{
+        text-align: center;
+        margin: 10px;
+    }
+    a{
+        border: solid #2c3e50;
+        width: fit-content;
+        text-decoration: none;
+margin-left: 10px;
+        text-align: right;
+        color: white; ;
+    }
+}
